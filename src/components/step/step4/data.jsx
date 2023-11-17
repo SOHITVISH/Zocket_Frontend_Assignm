@@ -28,7 +28,7 @@ const data = [
 export default data;
 
 //use ShutterStock img acc to responsive design or goto SOHITVISH git progile to link img
-// it is better to use stored img than a link
+// it is better to use stored img than a link or best is USE API. it will be stable and static and can be use anywhere in project
 // https://www.shutterstock.com/image-photo/board-delicious-caramel-cake-on-table-768814738
 //use predefined API created by NODE.js thats very fast and SEO freindly
 // https://www.shutterstock.com/image-photo/chocolate-cake-milk-cream-filling-on-2279399763

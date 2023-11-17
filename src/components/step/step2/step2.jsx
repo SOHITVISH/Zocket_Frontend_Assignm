@@ -16,16 +16,9 @@ function Step2({page,setPage}) {
         </div>
         <hr className="w-[100%] h-[1.5px] bg-[#EAEAEA]" />
         <div className="pt-6">
+        
           <div className="flex flex-wrap gap-[20px]">
-            {data.map((value, index) => {
-              return (
-                <Step2Rectangle
-                  Source={value.imgLink}
-                  Title={value.title}
-                  Description={value.description}
-                />
-              );
-            })}
+            {data.map((value, index) => { return ( <Step2Rectangle Source={value.imgLink} Title={value.title}  Description={value.description}/>); })}
           </div>
         </div>
       </Card>

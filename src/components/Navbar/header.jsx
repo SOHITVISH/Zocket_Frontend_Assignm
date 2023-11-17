@@ -7,10 +7,10 @@ export default function Navbar() {
         <img className="px-4" src="/assets/buyplan.svg" alt="buyplan" />
         <img className="px-4" src="/assets/notification.svg" alt="notification" />
         <div className="flex items-center"> 
-          <img className="px-4" src="/assets/name.svg" alt="name" />
+          <img className="px-4"  src="https://pngimg.com/uploads/cake/cake_PNG13130.png" alt="name img"   style={{ width: '12%', height: 'auto' }} />
           <div className="flex items-center">
             Mukund Cake Shop
-            <span className="ml-1 text-xs">&#9660;</span> 
+                    <span className="ml-1 text-xs">&#9660;</span> 
           </div>
         </div>
         <img className="px-4" src="/assets/translate.svg" alt="translate" />
